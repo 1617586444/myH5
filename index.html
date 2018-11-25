@@ -1,1 +1,37 @@
-你好这是第一个网站
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左右定宽中间自适应</title>
+    <style>
+        body,html{
+            width: 100%;
+            height: 100%;
+            height: 100%;
+            display: flex;
+
+
+        }
+        .left{
+            flex: 0 1 100px;
+            background: #cdff51;
+            height: 100%;
+
+        }
+        .center{
+            flex:1;
+            background:yellow;
+        }
+        .right{
+            flex:0 1 200px;
+            height: 100%;
+            background:blue;
+        }
+    </style>
+</head>
+<body>
+        <div class="left">2</div>
+        <div class="center">2</div>
+        <div class="right">22</div>
+</body>
+</html>

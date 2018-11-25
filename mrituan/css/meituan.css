@@ -1,0 +1,161 @@
+/*网页头部
+*/
+.header{
+	height:.48rem;
+	background: #05c0ab;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header a{
+	color: #fff;
+}
+.icon-xjt{
+	font-size:.0666rem;
+	padding-left:.0433rem;
+}
+.header input[type="text"]{
+	width:2.08333rem;
+	height:.3rem;
+	background: #fff;
+	border:0;
+	border-radius:.15rem;
+	padding-left:.5rem;
+	box-sizing: border-box;
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	color: #979797;
+}
+form{
+	position: relative;
+}
+
+.header form .icon-fdj{
+	position: absolute;
+	left:.2866rem;
+	top:.07666rem;
+	color: #979797;
+}
+
+
+/*商品列表*/
+.mian_list{
+	height:2.45rem;
+	background: #fff;
+}
+.list_t{
+	/*height:1.86rem;*/
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.list_t a{
+	display: flex;
+	flex:1 1 20%;
+	flex-direction:column;
+	align-items: center;
+	margin-top:.14666rem;
+	
+}
+.list_t a img{
+	width:.3933rem;
+	height:.3933rem;
+	padding-bottom:.07333rem;
+}
+
+
+
+.list_b{
+	height:.58666rem;
+	margin-top:.3266rem;
+	border-top:.0033rem solid #eee;
+	display: flex;
+}
+.b_l{
+	
+	height:100%;
+	width:.7066rem;
+	border-right:.0033rem solid #eee;
+	box-sizing: border-box;
+
+}
+.b_l img{
+	width:100%;
+	height:100%;
+}
+.b_r{
+	width:2.7rem;
+	height:.58666rem;
+	box-sizing: border-box;
+
+}
+.b_r a{
+	display: inline-block;
+	padding-top:.0766rem;
+}
+.b_r>a>span{
+	width:.2833rem;
+	height:.15rem;
+	border:.0066rem solid #f31a11;
+	border-radius:.0333rem;
+	color: #f31a11;
+	font-size:.1rem;
+	margin-left:.09rem;
+}
+	/*分割线*/
+.wrap{
+	height:.08rem;
+	background: #efefef;
+}
+	/*模块区*/
+.module{
+	background: #fff;
+	padding-bottom:.52rem;
+	
+	
+}
+.module ul li{
+	width:1.06rem;
+	height:1.256rem;
+}
+.module ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.module ul li a{
+	width:1.06rem;
+	height:1.256rem;
+}
+.module ul li a img{
+	width:1.06rem;
+	height:1.256rem;
+}
+.kong{
+	height:.03666rem ;
+	background: #fff;
+}
+	/*底部导航*/
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	width:100% ;
+	position:fixed;
+	height:.52rem;
+	background: #f5f5f5;
+	bottom:0;
+	align-items: center;
+	
+}
+.footer a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer a i{
+	font-size:.22rem;
+}
+.footer a:hover{
+	color: #33b9ae;
+}

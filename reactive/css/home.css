@@ -1,0 +1,568 @@
+
+/*头部*/
+#header_wrapper{
+    height:56px;
+    background: #1f2228;
+    position: fixed;
+    left:50%;
+    top:0;
+    transform: translate(-50%,0);
+    z-index: 3;
+    width:100%;
+	
+    
+}
+.header{
+    height: 56px;
+    background: #1f2228;
+  	overflow: hidden;
+   
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.logo a{
+	display: block;
+	width:153px;
+	height:53px;
+	text-indent: -999px;
+	margin-top:5px;
+}
+.logo{
+	background:url(../images/images/logo.png) no-repeat;
+}
+
+.nav{
+	float: left;
+	margin-left:40px;
+}
+.nav ul li{
+	float: left;
+	margin:0 40px;
+	
+}
+.nav ul li a{
+	display: inline-block;
+	color: #ef5344; 	
+	line-height:56px;
+	transition: all .3s linear;
+	
+}
+.nav ul li a:hover{
+	transform:translate(0,-56px);
+}
+.nav ul li a span{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	
+}
+.nav>ul>li>a>i{
+	color: #ef5344;
+	display: inline-block;
+	font-size: 20px;
+}
+.meun{
+	float: right;
+}
+/*banner图*/
+.banner_wrapper{
+	height:644px;
+	background: #191b2d;
+	padding-top:56px;
+	overflow: hidden;
+}
+.banner{
+	height:644px;
+	background: #191b2d;
+	text-align: center;
+}
+.b_top h2{
+	font-size:80px;
+	color: #fff;
+	font-weight: 900px;
+	line-height:100px;
+	margin-left:-450px;
+	transition: all .5s linear;
+}
+.banner:hover .b_top h2{
+	margin-left:0;
+}
+.b_top img{
+	width:250px;
+	height:25px;
+	display: inline-block;
+}
+.b_center{
+	float: left;
+	margin:0 auto;
+	margin:30px 30px 0 175px;
+}
+.b_left{
+	float: left;
+	margin-top:30px;
+	margin-left:200px;
+	transition: all .5s linear;
+	
+}
+.banner:hover .b_left{
+	margin-left:0;
+}
+
+.b_bottom{
+	float: left;
+	margin-left:260px;
+	padding-top:72px;
+}
+/*关于我们*/
+.about_wrapper{
+	height:583px;
+	background: #fff;
+}
+.about{
+	height:583px;
+	background: #fff;
+	text-align: center;
+	margin-top:30px;
+}
+.about dl dd{
+	margin-top:16px;
+	line-height:17px;
+	color: #a6a6a6;
+}
+.about_b{
+	height:336px;
+	margin-left:46px;
+}
+.about_b ul li{
+	float: left;
+	margin:36px 30px;
+	transition: all 2s linear;
+	
+}
+.about_b ul li:hover{
+	transform: rotate(3600deg);
+}
+.text ul li{
+	float: left;
+	margin:0 80px;
+}
+.text ul li a{
+	font-size:16px;
+	font-weight: 900px;
+}
+/*网页设计与制作*/
+.design_wrapper{
+	height:808px;
+	background: #ca192b;
+}
+.design{
+	height:808px;
+	background: #ca192b;
+}
+.de_top{
+	height:242px;
+	text-align: center;
+	padding-top:25px;
+}
+.de_top dl dt{
+	
+}
+.de_top dl dd h3{
+	font-size:30px;
+	color: #fff;
+	line-height:40px;
+	margin-top:7px;
+}
+.de_top dl dd p{
+	line-height:20px;
+	color: #ee6603;
+}
+.de_bottmo{
+	height:565px;
+	text-align: center;
+}
+.de_bottmo>ul>li{
+	float: left;
+	margin:23px 22px;
+}
+.de_bottmo>ul>li>img{
+	background: #000;
+	
+}
+.de_bottmo ul:hover li img{
+	opacity: 0.5;
+}
+.de_bottmo>ul>li>img:hover{
+	opacity: 1;
+}
+/*界面设计*/
+.jmsj_wrapper{
+	height:809px ;
+	background: #fff;
+}
+.jmsj{
+	height:809px ;
+	background: #fff;
+}
+.jmsj_top{
+	height: 198px;
+	text-align: center;
+}
+.jmsj_top dl dt{
+	padding-top:32px;
+}
+.jmsj_top dl dd h3{
+	font-size:26px;
+	line-height:40px;
+}
+.jmsj_bottom{
+	height:610px;
+	text-align: center;
+	display: flex;
+	justify-content:space-around;
+}
+
+.iphone{
+	width:193px;
+	height:408px;
+	margin-top:98px;
+	float: left;
+    position:relative;
+}
+.iphone_s{
+	width:169px;
+	height:297px;
+	position:absolute;
+	top:56px;
+	left:13px;
+	overflow: hidden;
+}
+.iphone_s ul{
+	width:1200px;
+	float: left;
+	margin-left:0px;
+	animation: go 10s linear infinite ;
+}
+.iphone_s ul li{
+	float: left;
+}
+
+.iphone_s ul li img{
+	width:169px;
+	height:297px;
+}
+
+
+.iphone02{
+	width:193px;
+	height:408px;
+	float: left;
+    position:relative;
+}
+
+
+.iphone_s2{
+	width:169px;
+	height:297px;
+	position:absolute;
+	top:56px;
+	left:13px;
+	overflow: hidden;
+}
+.iphone_s2 ul{
+	width:1200px;
+	float: left;
+	margin-left:0px;
+	animation: go 10s linear infinite ;
+}
+.iphone_s2 ul li{
+	float: left;
+}
+
+.iphone_s2 ul li img{
+	width:169px;
+	height:297px;
+}
+
+
+
+.iphone03{
+	width:193px;
+	height:408px;
+	margin-top:98px;
+	float: left;
+    position:relative;
+}
+
+.iphone_s3{
+	width:169px;
+	height:297px;
+	position:absolute;
+	top:56px;
+	left:13px;
+	overflow: hidden;
+}
+.iphone_s3 ul{
+	width:1200px;
+	float: left;
+	margin-left:0px;
+	animation: go 10s linear infinite ;
+}
+.iphone_s3 ul li{
+	float: left;
+}
+
+.iphone_s3 ul li img{
+	width:169px;
+	height:297px;
+}
+
+/*图标列表*/
+.app_wrapper{
+	height:808px;
+	background: #19a6db;
+}
+.app{
+	height:808px;
+	background: #19a6db;
+	text-align: center;
+}
+.app_t{
+	height: 223px;
+}
+.app .app_t h3{
+	padding-top:42px;
+}
+.app ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.app ul li{
+	
+	margin:0 36px;
+	margin-bottom:40px;
+	
+	
+	
+}
+.app ul li:hover{
+	animation: app 2s linear infinite ;
+}
+.app_b{
+	height:586px;
+}
+
+/*播放*/
+.play_wrapper{
+	height:634px;
+	background: #fff;
+}
+.play{
+	height:634px;
+	background: #fff;
+	text-align: center;
+}
+.play_t{
+	height:228px;
+}
+.play_t h3{
+	padding-top:33px;
+}
+.play_b{
+	display: flex;
+	justify-content: space-around;
+	height:268px;
+}
+.play_b dl{
+	width:116px;
+	height:172px;
+	
+	
+}
+.play_b dl dd{
+	margin-top:30px;
+	font-weight:900 ;
+}
+.play_b dl dt{
+	width:116px;
+	height:117px;
+	background:url(../images/images/skill-bg.png) no-repeat;
+	position: relative;
+	
+	
+}
+.play_b>dl>dt>span{
+	position: absolute;
+	top:8px;
+	left:8px;
+	display: block;
+	width:98px;
+	height:99px;
+	background:url(../images/images/skill-bg.png) no-repeat -117px -234px;
+	
+}
+.play_b>dl>dt>a{
+	position: absolute;
+	top:1px;
+	left:3px;
+	display: block;
+	width:112px;
+	height:113px;
+	background:url(../images/images/skill-bg.png) no-repeat -117px 0px;
+	animation: gg 3s linear infinite;
+	
+	
+}
+	/*底部*/
+.footer_wrapper{
+	height: 537px;
+	background: #1f2228;
+}
+.footer{
+	height: 537px;
+	background: #1f2228;
+}
+.f_top{
+	height:225px;
+	text-align: center;
+}
+.f_top h3{
+	padding-bottom:28px;
+}
+.f_bottom{
+	height:313px ;
+	text-align:center;
+	
+}
+.f_bottom h3{
+	font-size:30px;
+	color: #fff;
+	padding-top:60px;
+}
+.qq{
+	display: flex;
+	width:50%;
+	margin-left:242px;
+	justify-content:space-around;
+}
+.f_bottom li{
+	transition: all  linear .8s;
+}
+.f_bottom li:hover{
+	transform:scale(1.5) ;
+}
+.email{
+	display: flex;
+	width:50%;
+	margin-top:30px;
+	margin-left:242px;
+	justify-content:space-around;
+	
+	
+}
+.f_bottom p{
+	font-size:20px;
+	margin-top:10px;
+	color: #fff;
+	
+}
+.f_bottom p strong{
+	display: inline-block;
+	width:40px;
+}
+
+@keyframes gg{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+
+
+
+
+@keyframes app{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	25%{
+		transform: rotateZ(10deg);
+	}
+	50%{
+		transform: rotateZ(0deg);
+	}
+	75%{
+		transform: rotateZ(-10deg);
+	}
+	100%{
+		transform: rotateZ(0deg);
+	}
+}
+
+
+
+
+
+
+
+@keyframes go{
+	0%{
+		margin-left:0;
+	}
+	10%{
+		margin-left:0;
+	}
+	16.66%{
+		margin-left:-169px;
+	}
+	26.66%{
+		margin-left:-169px;
+	}
+	33.33%{
+		margin-left:-338px;
+	}
+	43.33%{
+		margin-left:-338px;
+	}
+	50%{
+		margin-left:-507px;
+	}
+	60%{
+		margin-left:-507px;
+	}
+	66.66%{
+		margin-left:-676px;
+	}
+	76.66%{
+		margin-left:-676px;
+	}
+	83.33%{
+		margin-left:-845px;
+	}
+	93.33%{
+		margin-left:-845px;
+	}
+	
+	100%{
+		margin-left:-1014px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
